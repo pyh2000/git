@@ -28,6 +28,9 @@ class Index extends BaseController
         echo $name3;
         $user=Db::table("user")->select()->toArray();
         dump($user);
+        dump($user);
+        dump($user);
+        dump($user);
     }
 
     public function hello($name = 'ThinkPHP6')
