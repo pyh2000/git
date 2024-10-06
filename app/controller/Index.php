@@ -8,21 +8,23 @@ class Index extends BaseController
     public function index()
     {
         $name="hello git three";
-        $name="hello git four";
-        $name="hello git five";
-        $name="hello git six";
-        $name="hello git seven";
-        $name="hello git nine";
-        $name="hello git 1";
-        $name="hello git 2";
-        $name="hello git 3";
-        $name="hello git 3";
-        $name="hello git 3";
-        $name="hello git 3";
-        $name="hello git 3";
-        $name="hello git 3";
-        dump($name);
-        return '<style type="text/css">*{ padding: 0; margin: 0; } div{ padding: 4px 48px;} a{color:#2E5CD5;cursor: pointer;text-decoration: none} a:hover{text-decoration:underline; } body{ background: #fff; font-family: "Century Gothic","Microsoft yahei"; color: #333;font-size:18px;} h1{ font-size: 100px; font-weight: normal; margin-bottom: 12px; } p{ line-height: 1.6em; font-size: 42px }</style><div style="padding: 24px 48px;"> <h1>:) </h1><p> ThinkPHP V' . \think\facade\App::version() . '<br/><span style="font-size:30px;">16载初心不改 - 你值得信赖的PHP框架</span></p><span style="font-size:25px;">[ V6.0 版本由 <a href="https://www.yisu.com/" target="yisu">亿速云</a> 独家赞助发布 ]</span></div><script type="text/javascript" src="https://e.topthink.com/Public/static/client.js"></script><think id="ee9b1aa918103c4fc"></think>';
+        $name1="hello git four";
+        $name2="hello git five";
+        $name3="hello git six";
+        $name4="hello git seven";
+        $name5="hello git nine";
+        $name6="hello git 1";
+        $name7="hello git 2";
+        $name8="hello git 3";
+        $name9="hello git 3";
+        $name10="hello git 3";
+        $name11="hello git 3";
+        $name12="hello git 3";
+        $name13="hello git 3";
+        echo $name;
+        echo $name1;
+        echo $name2;
+        echo $name3;
     }
 
     public function hello($name = 'ThinkPHP6')
