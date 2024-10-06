@@ -2,6 +2,7 @@
 namespace app\controller;
 
 use app\BaseController;
+use think\facade\Db;
 
 class Index extends BaseController
 {
@@ -25,6 +26,8 @@ class Index extends BaseController
         echo $name1;
         echo $name2;
         echo $name3;
+        $user=Db::table("user")->select()->toArray();
+        dump($user);
     }
 
     public function hello($name = 'ThinkPHP6')
